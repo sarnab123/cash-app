@@ -8,6 +8,9 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open --hot"
   },
+  "engines": {
+    "node": "10.15.3"
+  },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.2.3",
