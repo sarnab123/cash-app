@@ -1,0 +1,102 @@
+.page-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login-container{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 25px;
+}
+h3, h5 {
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.user-details > * {
+    min-width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+.hide{
+    display:none;
+}
+.registerlist-container{
+    display: flex;
+    border: 1px solid;
+    padding: 25px;
+    position: absolute;
+    top: 20%;
+}
+.register-lists{
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    max-height: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.register-lists ul{
+    padding-inline-start: 20px;
+}
+.checks-container{
+    margin: 10px 0;
+    border: 1px solid;
+    padding: 10px;
+}
+.amount-section, .system-items-section{
+    margin-top: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+    min-width: 120px;
+}
+.amount-section > div {
+    margin-bottom: 10px;
+}
+.amount-section ul{
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+    max-width: 120px;
+    border: 1px solid;
+    max-height: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.amount-section ul li{
+    display: flex;
+    justify-content: space-between;
+}
+.enter-amount label{
+    margin-bottom: 5px;
+}
+.system-table{
+    border: 1px solid;
+    padding: 3px;
+    min-height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.sys-thead {
+    background: #ccc;
+}
+.sys-row {
+    display: flex;
+    justify-content: space-between;
+}
+.system-total-section, .system-total-section > *{
+    margin-top: 10px;
+}
